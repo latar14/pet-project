@@ -1,5 +1,5 @@
 .sidebar {
-    height: calc(100Vh - var(--navbar-height));
+    height: calc(100vh - var(--navbar-height));
     width: var(--sidebar-width);
     background-color: var(--inverted-bg-color);
     position: relative;
@@ -7,7 +7,7 @@
 }
 
 .collapsed {
-    width: var(--sidebar-width-collapsed)
+    width: var(--sidebar-width-collapsed);
 }
 
 .switchers {
