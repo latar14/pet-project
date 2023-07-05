@@ -1,8 +1,7 @@
 {
-    "extends": "stylelint-config-standard-scss",
-    "rules": {
-      "indentation": [4],
-      "selector-class-pattern": null,
-      "comment-whitespace-inside": null
-    }
+  "extends": "stylelint-config-standard-scss",
+  "rules": {
+    "indentation": [4],
+    "selector-class-pattern": null
   }
+}
