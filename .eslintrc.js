@@ -52,6 +52,7 @@ module.exports = {
     },
     globals: {
         __IS_DEV__: true,
+        screen: false,
     },
     overrides: [
         {

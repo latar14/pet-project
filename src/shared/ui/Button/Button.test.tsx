@@ -1,3 +1,4 @@
+/* eslint-disable no-redeclare */
 import { render, screen } from '@testing-library/react';
 import { Button, ButtonTheme } from 'shared/ui/Button/Button';
 
