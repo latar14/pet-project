@@ -5,7 +5,7 @@ import { DeepPartial } from '@reduxjs/toolkit';
 import { ReactNode } from 'react';
 
 interface StoreProviderProps {
-    children?: ReactNode;
+    children: ReactNode;
     initialState?: DeepPartial<StateSchema>;
 }
 
