@@ -5,5 +5,8 @@ import { LoginSchema } from 'features/AuthByUsername';
 export interface StateSchema {
     counter: CounterSchema;
     user: UserSchema;
-    loginForm: LoginSchema;
+    // Асинхронные редбсеры
+    loginForm?: LoginSchema;
 }
+
+export type StateSchemaKey = keyof StateSchema;
