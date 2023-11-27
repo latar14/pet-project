@@ -16,7 +16,7 @@ export interface StateSchema {
     user: UserSchema;
 
     // Асинхронные редюсеры
-    loginForm?: LoginSchema;
+    loginForm: LoginSchema;
     profile?: ProfileSchema;
 }
 

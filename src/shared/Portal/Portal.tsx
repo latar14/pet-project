@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 import { ReactNode } from 'react';
 import { createPortal } from 'react-dom';
 
